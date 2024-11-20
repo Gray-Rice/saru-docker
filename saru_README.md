@@ -1,3 +1,12 @@
+# OS F1+TF1 Project 
+## Title: S.A.R.U : Secure . Accessable . Resilience . Usabilty
+## Members
+23BCE1472 S Aswin
+23BCE5062 Tharadheesh SS
+23BCE1382 Sarvepalli Krishna Pranav
+23BCE1481 U Yuvaraj
+
+
 # Linux auto build Image
 clone repo and run ```autobuild.sh``` inside to create dcoker image archive<br>
 Next to add docker image run
