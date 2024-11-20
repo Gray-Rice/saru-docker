@@ -10,7 +10,7 @@ Portable OS focused on security implemented using Docker
 23BCE1382 Sarvepalli Krishna Pranav<br>
 23BCE1481 U Yuvaraj<br>
 
-# VIT Internal content not for external perusal
+## VIT Internal content not for external perusal
 
 # Linux auto build Image
 clone repo and run ```autobuild.sh``` inside to create dcoker image archive<br>
