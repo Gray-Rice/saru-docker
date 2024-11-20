@@ -1,6 +1,10 @@
 # OS F1+TF1 Project 
-## Title: S.A.R.U : Secure . Accessable . Resilience . Usabilty
-## Members
+## Details: 
+S.A.R.U : Secure . Accessable . Resilience . Usabilty
+
+Portable OS focused on security implemented using Docker
+
+Members:
 23BCE1472 S Aswin
 23BCE5062 Tharadheesh SS
 23BCE1382 Sarvepalli Krishna Pranav
