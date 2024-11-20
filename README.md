@@ -1,4 +1,4 @@
-# Image Setup Steps Linux 
+# Linux Manual
 ## Clone repo
 ```c
 git clone 
@@ -26,4 +26,11 @@ Open terminal:
 ```
 
 # Manual Setup for windows and Mac
-```compose.yml``` and ```finish.sh``` work as expected docker container startup is expected to be done manually or use a checkpoint
+```compose.yml``` and ```finish.sh``` work as expected docker container startup is expected to be done manually or use a checkpoint<br>
+1. run ``` docker compose up -d``` from working directory of ```compose.yml```.<br>
+2. start 'saru' container.<br>
+3. copy ```finish.sh``` to Saru/homw in working diectory and follow linux steps starting from  Accessing the container 
+
+
+
+
