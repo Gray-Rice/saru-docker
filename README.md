@@ -1,3 +1,6 @@
+# Linux auto build Image
+clone repo and run ```autobuild.sh``` inside.
+
 # Linux Manual
 ## Clone repo
 ```c
