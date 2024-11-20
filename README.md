@@ -1,5 +1,9 @@
 # Linux auto build Image
-clone repo and run ```autobuild.sh``` inside.
+clone repo and run ```autobuild.sh``` inside to create dcoker image archive<br>
+Next to add docker image run
+```c
+sudo ./autoimport.sh
+```
 
 # Linux Manual
 ## Clone repo
@@ -9,7 +13,7 @@ git clone
 ## Run Initial script
 ```c
 cd saru_docker
-./init.sh
+sudo ./init.sh
 ```
 Requires proper user permissions to acces docker.socket
 
@@ -25,7 +29,7 @@ or https version for lossless video
 Run following command to finish setup inside docker<br>
 Open terminal:
 ```c
-./finish.sh
+sudo ./finish.sh
 ```
 
 # Manual Setup for windows and Mac
