@@ -1,0 +1,22 @@
+---
+services:
+    webtop:
+        image: lscr.io/linuxserver/webtop:arch-xfce
+        container_name: saru
+        security_opt:
+            - seccomp:unconfined
+        environment:
+            - PUID=1000
+            - PGID=1000
+            - TZ=Etc/UTC
+            - TITLE=Saru Webtop #optional
+        volumes:
+            - /path/to/data:/Saru/home
+            - /var/run/docker.sock:/var/run/docker.sock
+        ports:
+            - 3000:3000
+            - 3001:3001
+        devices:
+            - /dev/dri:/dev/dri
+        shm_size: "2gb" #Increase for performance browser ram consumption will increase
+        restart: unless-stopped
